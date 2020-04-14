@@ -1,0 +1,52 @@
+.image img{
+    display: flex;    
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.image{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+#head{
+    color: 	#6A5ACD;
+    text-align: center;
+}
+#lab{
+    color: white;
+}
+.main-form{
+    background-color:#6A5ACD ;
+}
+#labs{
+    color: white;
+    font-size: smaller;
+}
+#imag{
+    margin: auto;
+    display: flex;    
+    width: auto;
+    height: 400px;
+   
+}
+#header{
+    color: green;
+    text-align: center;
+    padding-top: 0px;
+}
+#para{
+    color: purple ;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 0px;
+    align-items: center;
+}
+#linkk{
+    color: purple ;
+    font-size: larger;
+    font-weight: bolder;
+    margin: auto;
+    margin-left: 500px;
+}

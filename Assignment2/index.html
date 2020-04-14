@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel = "stylesheet" href = "style.css"/>   
+    </head>
+    <body>
+        <div class="image">
+            <img src="Images/saylani.png" />
+        </div>
+        <div id="head">
+            <h2>STUDENT REGISTRATION FORM</h2>            
+        </div>
+        <div class="main-form">
+            <form>
+                <table>
+                    <tr>
+                        <td><label id="lab">FIRST NAME</label></td>
+                        <td><input type="text" name="FName" placeholder="Enter First Name" maxlength="30"/>
+                        <label id="labs">(max 30 characters a-z and A-Z)</label></td>
+                    </tr>                       
+                    <tr>
+                        <td><label id="lab">LAST NAME</label></td>
+                        <td><input type="text" name="LName" placeholder="Enter Last Name" maxlength="30"/>
+                        <label id="labs">(max 30 characters a-z and A-Z)</label></td>
+                    </tr>  
+                    <tr >
+                        <td><label id="lab">DATE OF BIRTH</label></td>
+                        <td ><SELEct class="first" name="days">
+                            <option>Day</option>
+                        </SELEct><SELEct name="months">
+                            <option>Month</option>
+                        </SELEct><SELEct name="years">
+                            <option>Year</option>
+                        </SELEct></td>                        
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">EMAIL ID </label></td>
+                        <td><input type="email" name="email" placeholder="Enter Email Address" required/></td>                        
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">MOBILE NUMBER</label></td>
+                        <td><input type="number" name="number" maxlength="10" placeholder="Enter Mobile Number"/>
+                        <label id="labs">(10 digit number)</label></td>
+                    </tr> 
+                    <tr>
+                        <td><label id="lab">GENDER</label></td>
+                        <td>
+                            <label id="lab">Male</label>
+                            <input type="radio" name="Gender" value="Male"/>
+                            <label id="lab">Female</label>
+                            <input type="radio" name="Gender" value="Female"/>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td><label id="lab">ADDRESS</label></td>
+                        <td>
+                            <textarea cols="35" rows="7"></textarea>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td><label id="lab">CITY</label></td>
+                        <td><input type="text" name="CName" placeholder="Enter City Name" maxlength="30"/>
+                        <label id="labs">(max 30 characters a-z and A-Z)</label></td>
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">PIN CODE</label></td>
+                        <td><input type="password" name="CODE" placeholder="Enter Pin Code" maxlength="6"/>
+                        <label id="labs">(max 6 Digit Number)</label></td>
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">STATE</label></td>
+                        <td><input type="text" name="state" placeholder="Enter State Name" maxlength="30"/>
+                        <label id="labs">(max 30 characters a-z and A-Z)</label></td>
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">COUNTRY</label></td>
+                        <td><input type="text" name="country" placeholder="Enter Country Name"/></td>                        
+                    </tr>  
+                    <tr>
+                        <td><label id="lab">HOBBIES</label></td>
+                        <td><label id="lab">Drawing</label>
+                        <input type="checkbox" value="Drawing"/>
+                        <label id="lab">Singing</label>
+                        <input type="checkbox" value="Singing"/>
+                        <label id="lab">Dancing</label>
+                        <input type="checkbox" value="Dancing"/>
+                        <label id="lab">Sketching</label>
+                        <input type="checkbox" value="Sketching"/><br></td>                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label id="lab">Others</label>
+                        <input type="checkbox" value="Others"/>                    
+                        <input type="text" name="other"/>
+                        </td>
+                    </tr>    
+                    <table width="auto">                        
+                        <tr id="lab">
+                            <td>QUALIFICATION</td>
+                            <td></td>
+                            <td></td>
+                            <td align="center">S.NO.</td>
+                            <td align="center">EXAMINATION</td>
+                            <td align="center">BOARD</td>
+                            <td align="center">PERCENTAGE</td>
+                            <td align="center">YEAR OF PASSING</td>
+                        </tr>
+                        <tr id="lab">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr id="lab">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr id="lab">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr id="lab">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr id="labs">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td align="center">(10 Char Max)</td>
+                            <td align="center">(upto 2 decimals)</td>
+                            <td></td>
+                        </tr>
+                        <table width="auto">
+                            <tr id="lab">
+                                <td><label>COURSES</label></td>                            
+                            </tr>           
+                            <tr id="lab">
+                                <td><label>APPLIED FOR</label></td>   
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><label>BCA</label></td>
+                                <td><input type="radio" name="course" value="BCA"/></td>                        
+                                <td><label>B.COM</label></td>
+                                <td><input type="radio" name="course" value="Bcom"/></td>  
+                                <td><label>B.SC</label></td>
+                                <td><input type="radio" name="course" value="Bsc"/></td>                          
+                                <td><label>B.A</label></td>
+                                <td><input type="radio" name="course" value="BA"/></td>    
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><input type="submit" name="Submit" value="Submit"/></td>
+                                <td><input type="submit" name="reset" value="Reset"/></td>
+                            </tr>
+                        </table>
+                    </table>                    
+                </table>               
+            </form>
+        </div>
+    </body>
+</html>
