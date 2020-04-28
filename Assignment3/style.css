@@ -1,0 +1,143 @@
+.header div{
+    display: inline-block;    
+	min-height: 50px;
+	background-color: #0066FF;
+    height: auto;
+    padding:10px;
+    align-items: center;
+}
+.links{
+    width: 250px;
+    padding: 15px;
+}
+.qoute{
+    width: 350px;
+}
+.butt-head{
+    width: 350px;
+    padding-left: 50px;
+}
+.header{
+    background-color: #0066FF;
+    padding: 15px;    
+    width: auto;
+    height: auto;
+    margin: auto;       
+}
+.fab{
+    color:whitesmoke;
+    padding: 10px;
+}
+.fas{
+    color:whitesmoke;
+    padding: 10px;
+}
+.quote h6{        
+    color: whitesmoke;        
+    font-size: 16px;
+    font-weight: bolder;
+} 
+.navbar-brand{
+    padding-left: 70px;
+}
+code {
+    color: #B06AB3;
+    background: #fff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+  }
+  
+  @media (min-width: 991px) {
+    .dropdown-menu {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  ul li:hover{
+      /* background-color: #0066FF;
+      border-radius: 25px; */
+  }
+.collapse li:hover{
+    background-color: #0066FF;
+    border-radius: 25px;
+}
+.News{
+    background-color: #0066FF;
+    width: auto;
+    height: 70px;
+    margin-left: 40px;
+    color: white;
+
+    margin-right: 40px;
+    text-align: center;
+}
+.News marquee{
+    padding-top: 10px;
+}
+.content{
+padding: 8%;
+width: auto;
+height: auto;
+background-color: whitesmoke;
+}
+.carousel-inner{
+    width: auto;
+    height: auto;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    /* display: flex;
+    justify-content: space-between; */
+    box-shadow:5px 10px lightgrey;
+}
+.image-card{
+    margin: auto;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.New{
+    background-color: lightgrey;
+    width: 400px;
+    height: 280px;
+    padding: 40px;
+    
+    text-align: center;
+}
+.cards{
+    width: 200px;
+    height: 120px;    
+    box-shadow:5px 10px lightgrey;
+    margin: auto;
+}
+
+.card-gall{
+    width: 200px;
+    height: 120px;        
+    /* margin-left: 20%; */
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    .card-gall{
+        margin-left: 35%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .New{
+        margin-left: 12%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .links{
+        margin-left: 25%;
+    }
+    .quote
+    {
+        margin-left: 15%;  
+    }
+    .butt-head{
+        margin-left: 15%;  
+    }
+}
