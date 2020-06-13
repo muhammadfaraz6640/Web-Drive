@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<script>
+    Hello = () =>{
+        alert("hello world on different events");
+    }
+</script>
+<body onkeypress="Hello()">
+    
+    <button onclick="Hello()">Click me to call an event</button>
+    <p ondblclick="Hello()">click me to triger double click event</p>
+    <p oncontextmenu="Hello()">click me to triger right click event</p>
+    <p onmouseenter="Hello()">click me to triger event</p>
+    <p onmouseout="Hello()">click me to triger event</p>
+</body>
+</html>
+
+<!-- onclick trigered when button is clicked -->
+<!-- ondblclick trigered when double clicked that event-->
+<!-- oncontextmenu trigered when right clicked that event-->
+<!-- onmouseenter trigered when hover with mouse that event-->
+<!--onmouseout when hover out -->
+<!-- onmousedown just like click -->
+<!-- mouseup when click button left -->
+<!-- onresize work only in body tag and when window resize -->
+<!-- onscroll work on also in div when scroll -->
+<!--  onload when page loads -->
+<!-- onunload when off the window -->
