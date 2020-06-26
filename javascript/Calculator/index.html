@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>    
+<div class="main">
+    <label>Calculator App</label>
+    <input type="text" id="textbox" name="" id="op1">
+    <div>
+        <button id="1" onclick="GetValue('1')">1</button>
+        <button id="2" onclick="GetValue('2')">2</button>
+        <button id="3" onclick="GetValue('3')">3</button>
+    </div>
+    <div>
+        <button onclick="GetValue('4')">4</button>
+        <button onclick="GetValue('5')">5</button>
+        <button onclick="GetValue('6')">6</button>
+    </div>
+    <div>
+        <button onclick="GetValue('7')">7</button>
+        <button onclick="GetValue('8')">8</button>
+        <button onclick="GetValue('9')">9</button>
+    </div>
+    <div>
+        <button onclick="GetValue('0')">0</button>
+        <button onclick="GetValue('+')">+</button>
+        <button onclick="GetValue('-')">-</button>
+    </div>
+    <div>
+        <button onclick="GetValue('*')">*</button>
+        <button onclick="GetValue('/')">/</button>
+        <button onclick="GetValue('%')">%</button>        
+    </div>
+    <div>
+        <button class="result" onclick="GetResult()">=</button>        
+        <button onclick="Clear()">C</button>        
+    </div>
+</div>
+<script>
+    function GetValue(num){
+        var res = document.getElementById("textbox");        
+        res.value += num;
+    }
+    function GetResult(){
+        var res = document.getElementById("textbox");   
+        res.value = eval(res.value);
+    }
+    function Clear(){
+        var res = document.getElementById("textbox");   
+        res.value = "";
+    }
+</script>
+</body>
+</html>
